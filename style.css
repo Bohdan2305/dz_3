@@ -1,48 +1,38 @@
-body{
-    background-color: gainsboro;
+body {
+  background-color: rgb(0, 128, 96);
 }
 
 .block1 {
-  background-color: aqua;
-  width: 250px;
-  height: 110px;
-  margin: auto;
-  border-style: dashed;
-  border-color: red;
-  border-width: 2px;
-  margin-bottom: 30px;
-  
+  color: white;
+  border-style: double;
+  border-width: 5px;
+  margin: 40px 120px;
+
+  padding: 10px;
+  text-align: left;
+  font-size: 25px;
 }
 
 .block2 {
-  background-color: teal;
-  width: 250px;
-  height: 110px;
-  margin: auto;
-  border-style: dotted;
-  border-color: red;
-  border-width: 1px;
-  margin-bottom: 30px;
+  border-style: double;
+  border-color: burlywood;
+  margin: 40px 120px;
+
+  border-width: 5px;
+  color: burlywood;
+  padding: 10px;
+  text-align: center;
+  font-size: 25px;
 }
 
-.block3{
-    background-color: darksalmon;
-  width: 250px;
-  height: 110px;
-  margin: auto;
-  border-style: solid;
-  border-color: red;
-  border-width: 10px;
-  margin-bottom: 30px;
-}
+.block3 {
+  border-style: double;
+  border-color: blue;
+  margin: 40px 120px;
 
-.block4{
-    background-color:gray ;
-    width: 250px;
-    height: 110px;
-    margin: auto;
-    border-left: 2px solid ;
-    border-color: black;
-    
-    
+  border-width: 5px;
+  color: blue;
+  padding: 10px;
+  text-align: right;
+  font-size: 25px;
 }
